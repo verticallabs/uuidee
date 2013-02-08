@@ -1,9 +1,10 @@
 Uuidee
 ======
 
-Forked from https://github.com/spectra/ruby-uuid, all credit to Pablo Lorenzoni/Shyouhei Urabe.
+I could not find a pure ruby uuid gem that supported UUID v3, v4, and v5, and was bundle-friendly.  Please let me know if you see one!
 
-Created Uuidee just to make including it in gems easier.
+Pseudo-forked from https://github.com/spectra/ruby-uuid, all credit to Pablo Lorenzoni/Shyouhei Urabe.
+
 
 Original README from spectra (Pablo Lorenzoni)
 ----------------------------------------------
