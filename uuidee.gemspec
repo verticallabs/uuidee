@@ -6,11 +6,11 @@ require 'uuidee/version'
 Gem::Specification.new do |gem|
   gem.name          = "uuidee"
   gem.version       = Uuidee::VERSION
-  gem.authors       = ["Paul Schuegraf"]
+  gem.authors       = ["Paul Schuegraf, Pablo Lorenzoni, Shyouhei Urabe"]
   gem.email         = ["paul@verticallabs.ca"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Bundle friendly pure ruby UUID generator supporting v1, v3, v4, v5}
+  gem.summary       = %q{Bundle friendly pure ruby UUID generator supporting v1, v3, v4, v5}
+  gem.homepage      = "https://github.com/verticallabs/uuidee.git"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
